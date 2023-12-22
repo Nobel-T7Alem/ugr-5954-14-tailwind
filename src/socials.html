@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials | Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="font-sans m-0 p-0 text-gray-800 bg-gray-200">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4 flex justify-between items-center">
+        <button id="hamburger" class="hamburger md:hidden text-2xl bg-transparent border-none text-white cursor-pointer transition duration-300" onclick="toggleMenu()">☰</button>
+        <div id="menu" class="hidden md:flex flex-1 justify-center justify-around">
+            <a href="home.html" class="text-white hover:text-yellow-300 transition duration-300">Home</a>
+            <a href="projects.html" class="text-white hover:text-yellow-300 transition duration-300">Projects</a>
+            <a href="education.html" class="text-white hover:text-yellow-300 transition duration-300">Education</a>
+            <a href="Volunteer work.html" class="text-white hover:text-yellow-300 transition duration-300">Volunteer Work</a>
+            <a href="socials.html" class="text-white hover:text-yellow-300 transition duration-300">Socials</a>
+        </div>
+    </nav>
+    
+    <!-- Main Heading -->
+    <h1 class="text-center p-5 text-xl text-blue-600">Let's get in touch!</h1>
+
+    <!-- Contact Section -->
+    <div class="flex flex-col items-center p-5">
+        <div class="mb-8 text-center">
+            <label for="multi-line" class="block mb-2">Enter message:</label>
+            <textarea id="multi-line" name="multi-line" rows="10" cols="50" class="text-center text-gray-800 w-4/5 max-w-lg p-2 border border-gray-300 rounded"></textarea>
+        </div>
+
+        <div class="mb-8 text-center">
+            <label for="single-line" class="block mb-2">Send me a message!</label>
+            <input type="text" id="single-line" name="single-line" value="Send me a message!" class="text-center text-gray-800 w-4/5 max-w-lg p-2 border border-gray-300 rounded">
+        </div>
+
+        <button class="bg-blue-800 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300">
+            <span>Submit</span>
+        </button>
+    </div>
+
+    <!-- Socials Section -->
+    <div class="flex flex-col items-center p-5">
+        <div class="flex justify-center flex-wrap gap-5">
+            <div class="text-center">
+                <img src="Images/Instagram.png" alt="Instagram" class="w-12 h-12">
+                <p class="mt-2">@nobel_tibebe251</p>
+            </div>
+            <div class="text-center">
+                <img src="Images/Twitter.png" alt="Twitter" class="w-12 h-12">
+                <p class="mt-2">@Shero_digger</p>
+            </div>
+            <div class="text-center">
+                <img src="Images/email.png" alt="Email" class="w-12 h-12">
+                <p class="mt-2">alemayehu.nobel.3@gmail.com</p>
+            </div>
+            <div class="text-center">
+                <img src="Images/Linked In.png" alt="LinkedIn" class="w-12 h-12">
+                <p class="mt-2">nobeltibebe@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="audio-container">
+        <p class="m-3">Do reach out, and enjoy this outro:</p>
+        <audio controls>
+            <source src="Mzg1ODMxNTIzMzg1ODM3_JzthsfvUY24.MP3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 z-50 bg-blue-800 hover:bg-blue-700 text-white cursor-pointer rounded-full p-4 transition duration-300">
+        <span class="text-xl">&#10580;</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-10">
+        <p>&#169; 2023 Nobel Tibebe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="javascript/javascript.js"></script>
+
+</body>
+</html>
